@@ -1,0 +1,75 @@
+#sorting, select {
+	margin-top: 0px !important;
+}
+
+.exhibitors-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+}
+
+.sorting-box {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.searching-box {
+  width: 50%;
+}
+
+.searching-box input {
+  width: 100%;
+}
+
+#search-bar {
+  margin-top: 0;
+}
+
+.exhibitor-header li {
+  list-style-type: none;
+}
+
+.exhibitor-header img {
+  width: 250px;
+  padding-right: 25px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-item {
+  color: black;
+  font-size: 18px;
+}
+
+.ex-container {
+  display: flex;
+  padding-top: 25px;
+}
+
+.ex-container h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .exhibitor-header img {
+    padding: 15px 0;
+  }
+}
+
+.row-breadcrumb {
+  display: none;
+}
+
+.back-to-exhibitors {
+  margin-top: 30px;
+  background: #424242;
+  color: white !important;
+  padding: 8px 20px;
+  display: inline-block;
+}
